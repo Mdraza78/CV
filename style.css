@@ -14,6 +14,7 @@
     
   }
   .greetings{
+      font-family: 'Dancing Script', cursive;
      position: relative;
     top: 140px;
     right: 80px;
