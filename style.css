@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
   }
   .firstpage{
     background-color: #c1bbb3;
@@ -11,7 +12,6 @@
     position: relative;
     bottom: 65px;
     left: 280px;
-    
   }
   .greetings{
     font-family: 'Dancing Script', cursive;
@@ -29,6 +29,14 @@
     position: relative;
     bottom: 25px;
   }
+  @media (min-width:700px) and (max-width:1000px) {
+    .extracloud{
+   
+    position: relative;
+    left: 80px;
+   }
+   }
+  /* this design is for mobile dimensions */
   @media (min-width:300px) and (max-width:699px){
    .firstpage{
     width: 100%;
@@ -55,3 +63,7 @@
         margin-left: 70px;   
     }
   }
+
+  
+   
+  
