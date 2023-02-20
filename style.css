@@ -1,376 +1,372 @@
 *{
-    margin: 0;
-    padding: 0;
-    
-  }
-  .firstpage{
-    background-color: #E4F5E5;
-  }
-  .extracloud{
-    width: 145px;
-    height: 130px;
-    position: relative;
-    bottom: 65px;
-    left: 280px;
-  }
-  .greetings{
-    font-family: 'Dancing Script', cursive;
-     position: relative;
-    top: 140px;
-    right: 80px;
-    text-align: center;
-    font-size: 20px;
-  }
-  .scenery{
-    width: 420px;
-    height: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    bottom: 25px;
-  }
-  @media (min-width:700px) and (max-width:1000px) {
-    .extracloud{
-   
-    position: relative;
-    left: 55px;
-   }
-   }
-  /* this design is for mobile dimensions */
-  @media (min-width:300px) and (max-width:699px){
-   .firstpage{
-    width: 100%;
-    height: 641px;
-   }   
-    .extracloud{
-    width: 95px;
-    height: 85px;
-    position: relative;
-    bottom: 30px;
-    left: 10px;
-    top: 5px;
-    }
-    .scenery{
-        height: 350px;
-        width: 320px;
-       position: relative;
-       top:120px;
-    }
-    .greetings{
-        font-size:15px;
-        position: relative;
-        top: 210px;
-        margin-left: 70px;   
-    }
-  }
-   hr{
-    border-style:none ;
-    border-top-style: dotted;
-    border-width: 25px;
-    width: 120px;
-    color: silver;
-    margin-left: auto;
-    margin-right: auto;
-  } 
-  .hiimg{
-   width: 150px;
-   height: 150px;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-  }
-  .Hii{
-    margin-left: 49%;
-    margin-right: 51%;
-    font-family: 'Shantell Sans', cursive;
-    color:#A75D5D;
-  }
-  .real{
-    font-family: 'Merriweather', serif;
-  }
-   @media (min-width:300px) and (max-width:699px){
-    .firstpage{
-      width: 106.50%;
-      height: 641px;
-     }   
-    .Hii{
-      margin-left: 47%;
-      margin-right: 53%;
-     }
-  } 
-  @media (min-width:700px) and (max-width:1000px){
-    .Hii{
-      margin-left: 47%;
-      margin-right: 53%;
-    }
-  }
-  .myskills{
-    margin-left: 47%;
-    font-family: 'Shantell Sans', cursive;
-    color:#A75D5D;
-  }
-  .codeimg{
-    width:200px;
-    height: 180px;
-    float: left;
-    margin:30px;
-  }
-  .skill1{
-    font-size: 20px;
-    color: #A75D5D;
-    font-family: 'Merriweather', serif;
-  }
-  p{
-    font-family: 'Merriweather', serif;
-    font-size: 15px;
-  }
-  .skillrow1{
-    position: relative;
-    top:85px;
-  }
-  
-  .skill2{
-    display: inline;
-    font-family: 'Merriweather', serif;
-    color: #A75D5D;
-    font-size: 17px;
-  }
-.img2{
-  display: inline;
-  width: 240px;
-  height: 260px;
-  float: left;
-  margin: 70px;
-  position: relative;
-  top: 210px;
-  left: 270px;
+  margin: 0;
+  padding: 0;
 }
-.devlopment{
-  display: inline-block;
-  position: relative;
-  top: 390px;
-  left: 240px;
-}
-@media (min-width:700px) and (max-width:826px){
+
 .firstpage{
-  width: 850px;
+  background-color: #E4F5E5;
 }
-  .codeimg{
-  margin-left: 38%;
-  margin-right: 62%;
+.extracloud{
+  width: 145px;
+  height: 130px;
+  position: relative;
+  bottom: 65px;
+  left: 280px;
 }
-.skill1{
+.greetings{
+  font-family: 'Dancing Script', cursive;
+   position: relative;
+  top: 120px;
+  right: 80px;
   text-align: center;
+  font-size: 20px;
 }
-.details2{
-  text-align: center;
+.scenery{
+  width: 420px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 75px;
+  
+}
+
+ hr{
+  border-style:none ;
+  border-top-style: dotted;
+  border-width: 25px;
+  width: 120px;
+  color: silver;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.hiimg{
+ width: 150px;
+ height: 150px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ /* display: block;
+ margin-left: auto;
+ margin-right: auto;
+border-radius: 29px;
+box-shadow: 2px 4px 8px 0px; */
+}
+.Hii{
+  margin-left: 47%;
+  margin-right: 53%;
+  font-family: 'Shantell Sans', cursive;
+  color:#A75D5D;
+}
+.real{
+  font-family: 'Merriweather', serif;
 }
 .myskills{
+  display: inline-block;
   position: relative;
-  
-}
-.img2{
-  width: 40%;
-  height: 40%;
-  position: relative;
-  top: 70px;
-  left: 150px;
+  left: 570px;
+  font-family: 'Shantell Sans', cursive;
+  color:#A75D5D;
 }
 .codeimg{
-  
-  width: 35%;
-  height: 35%;
+  width:200px;
+  height: 180px;
+  float: left;
+  margin:30px;
+}
+.skill1{
+  font-size: 20px;
+  color: #A75D5D;
+  font-family: 'Merriweather', serif;
+}
+p{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+.skillrow1{
   position: relative;
-  right: 35px;
+  top:85px;
+}
+
+.skill2{
+  display: inline;
+  font-family: 'Merriweather', serif;
+  color: #A75D5D;
+  font-size: 17px;
+}
+.img2{
+display: inline;
+width: 240px;
+height: 260px;
+float: left;
+margin: 70px;
+position: relative;
+top: 210px;
+left: 270px;
 }
 .devlopment{
-  
-  position: relative;
-  top: 80px;
+display: inline-block;
+position: relative;
+top: 390px;
+left: 240px;
 }
-.det2{
+.thirddivider{
  position: relative;
- left: -50px;
+ bottom: 100px;
+ right: 320px; 
 }
-.skill2{
+.thirdsection{
+  font-size: 20px;
+  font-family: 'Shantell Sans', cursive;
+  color: #A75D5D;
   position: relative;
-  left: 60px;
+  right: 50px;
+  bottom: 20px;
 }
+.ttt{
+  position: relative;
+  right: 280px;
 }
-@media (min-width:827px) and (max-width:1000px){
-  .codeimg{
-    margin-left: 38%;
-    margin-right: 62%;
-  }
-  .skill1{
-    text-align: center;
-  }
-  .details2{
-    text-align: center;
-  }
-  .myskills{
-    position: relative;
-    
-  }
-  .img2{
-    width: 40%;
-    height: 40%;
-    position: relative;
-    top: 70px;
-    left: 200px;
-  }
-  .codeimg{
-    
-    width: 35%;
-    height: 35%;
-    position: relative;
-    right: 35px;
-  }
-  .devlopment{
-    
-    position: relative;
-    top: 520px;
-    left: -160px;
-  }
-  .det2{
-   position: relative;
-   left: -50px;
-  }
-  .skill2{
-    position: relative;
-    left: 60px;
-  }
+
+.third{
+  position: relative;
+  top: 700px;
 }
-@media (min-width:300px) and (max-width:580px){ 
-  body{
-    width:300px; 
-   }
+.myButton {
+  position: relative;
+  top: 70px;
+  right: 70px;
+	box-shadow: 0px 15px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:19px 43px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.myButton:hover {
+	background:rgb(102, 177, 74);
+	background-color:rgb(68, 167, 88);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.finalbox{
+  position: relative;
+  top: 900px;
+}
+.instagram{
+  width: 100px;
+  height: 100px;
+position: relative;
+top: 20px;
+right: 70px;
+}
+.facebook{
+  width: 65px;
+  height: 65px;
+position: relative;
+right: 60px;
+}
+.github{
+  width: 65px;
+  height: 65px;
+position: relative;
+right: 40px;
+}
+.finalsection{
+  font-size: 20px;
+  font-family: 'Shantell Sans', cursive;
+  color: #A75D5D;
+}
+.finaldivider{
+  position: relative;
+top: 850px;
+right: 320px;
+}
+.finalbox{
+  position: relative;
+  top:1000px;
+  right: 40px;
+  height: 250px;
+  background-color: #E4F5E5;
+  width: 1303px;
+}
+.hello{
+  display: inline;
+  position: relative;
+  left: -280px;
+  top: 70px;
+}
+@media (min-width:300px) and (max-width:699px){
   .firstpage{
-    width: 580px;
-    height: 700px;
-    
+    width: 1300px;
+    height: 350vh;
   }
-  hr{
+  .extracloud{
+    width: 180px;
+    height: 160px;
     position: relative;
-    left: 140px;
-    top: 30px;
+  bottom:-200px;
   }
-  .hiimg{
-    margin-left: 200px;
-  }
-  .Hii{
-    margin-left: 240px;
-    font-size: 35px;
-  }
-  .real{
-    position: relative;
-    left: 130px;
-    font-size: 18px;
-  }
-  h1{
-    font-size: 40px;
-  }
-  h2{
-    font-size: 25px;
-  }
-  .myskills{
-    position: relative;
-    left: 65px;
-    top: 60px;
-    font-size: 28px;
-  }
-  .codeimg{
-    position: relative;
-    top: 60px;
-    left: 130px;
-    width: 250px;
-    height: 220px;
-  }
-  .skillrow1{
-    position: relative;
-    left: 130px;
-  }
-  .skill1{
-    margin-left: 30%;
-  }
-  .details2{
-    text-align: center;
-    font-size: 18px;
-  }
-  .img2{
-    position: relative;
-    left:90px;
-    width: 300px;
-    height: 280px;
-  }
-  
-  .skill2{
-    text-align: center;
-    font-size: 18px;
-  }
-  .det2{
+  .scenery{
+    height: 1000px;
+    width: 1080px;
     position:relative;
-    right: 80px;
-  }
-  .devlopment{
-    position: relative;
-    top: 220px;
-  }
-  .det2{
-    font-size: 18px;
-    text-align: center;
-  }
-}
- @media (min-width:581px) and (max-width:699px){
-  .firstpage{
-    width: 800px;
+    top: 585px;
   }
   .greetings{
     position: relative;
-    right:170px;
-    font-size: 20px;
+    top: 590px;
   }
-  .scenery{
-    position: relative;
-    right: 0px;
-    top: 60px;
-    width:350px;
-    height: 350px;
+  h1{
+   font-size: 65px;
   }
-  .extracloud{
-    width:140px;
-    height: 120px;
-    
+  h2{
+   font-size: 50px;
   }
   hr{
     position: relative;
-    left: 40px;
+    left:460px;
+  }
+  .hiimg{
+    position: relative;
+    left: 480px;
+    top: 100px;
+    height: 250px;
+    width: 250px;
+  }
+  .Hii{
+   position: relative;
+   left: 400px;
+   top: 150px;
+   font-size: 60px;
+  }
+  .real{
+    position: relative;
+    top: 200px;
+    left: 470px;
+    font-size: 25px;
+  }
+  .rrr{
+    position: relative;
+    top: 300px;
+  }
+  .middlesection{
+     position: relative;
+     top: 500px;
+  }
+  .myskills{
+    position: relative;
+   bottom: 100px;
   }
   .codeimg{
     position: relative;
-    top: 60px;
-    left: 190px;
+    left: 400px;
+    width: 500px;
+    height: 500px;
   }
   .skillrow1{
     position: relative;
-    top: 330px;
+    top: 150px;
+    left: 500px;
   }
-  .details2{
-    text-align: center;
+.skill1{
+position: relative;
+left: 95px;
+font-size: 45px;
+
+}
+.details2{
+  font-size: 25px;
+  text-align: center;
+}
+.img2{
+  width: 500px;
+    height: 500px;
     position: relative;
-    right: 105px;
-  }
-  .img2{
- 
-  }
-  .devlopment{
-    position: relative;
-    top:230px;
-    /* right: 150px; */
-  }
-  .det2{
-    position: relative;
-    left: -180px;
-  }
- }
+    left: 400px;
+}
+.devlopment{
+  position: relative;
+  left: 500px;
+}
+.skill2{
+  font-size: 45px;
+}
+.det2{
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  right: 50px;
+}
+.third{
+  position: relative;
+  top: 1300px;
+  left: 550px;
+}
+.thirdsection{
+  font-size: 45px;
+  position: relative;
+  left: -20px;
+}
+.thirddivider{
+  position: relative;
+  top: 600px;
+}
+.ttt{
+  font-size: 25px;
+  position: relative;
+  left: -80px;
+}
+.myButton{
+position: relative;
+left: 50px;
+}
+.finalbox{
+  position: relative;
+  top: 1500px;
+}
+.finalbox{
+  width: 1350px;
+  height: 350px;
+}
+/* .finaldivider{
+  position: relative;
+  right: 400px;
+} */
+.finalsection{
+  font-size: 40px;
+  margin-left:600px;
+  padding-top: 50px;
+}
+.instagram{
+position: relative;
+left: 605px;
+top: 60px;
+}
+.facebook{
+  position: relative;
+  left: 605px;
+  top: 40px;
+}
+.github{
+  position: relative;
+  left: 615px;
+  top: 38px;
+}
+.hello{
+  position: relative;
+  left: 380px;
+  top: 100px;
+}
+}
