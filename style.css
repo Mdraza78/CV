@@ -370,3 +370,32 @@ top: 60px;
   top: 100px;
 }
 }
+@media (min-width:700px) and (max-width:1000px){
+  .firstpage{
+    width: 1300px;
+    height: 1000px;
+  } 
+  .scenery{
+    width: 700px;
+    height: 700px;
+    position: relative;
+    top: -155px;
+  }
+  .extracloud{
+    width:280px;
+    height:250px;
+    position: relative;
+    left: 80px;
+    bottom:220px;
+  }
+  .greetings{
+    position: relative;
+    top: 200px;
+    right:130px;
+    font-size: 35px;
+  }
+  hr{
+    position: relative;
+    left: 250px;
+  }
+}
